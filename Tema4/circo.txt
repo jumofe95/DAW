@@ -1,0 +1,5 @@
+4
+Valencia 5 100
+Madrid 10 1000
+Barcelona 3 800
+Malaga 7 900

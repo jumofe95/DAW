@@ -1,0 +1,6 @@
+Ordenador 600
+Carpeta 20
+Teclado 30
+Raton 10
+USB 30
+Alfombrilla 10
