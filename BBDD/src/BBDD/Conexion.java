@@ -15,7 +15,7 @@ public class Conexion {
 		try {
 			Class.forName("org.postgresql.Driver");
 			try {
-				conexion = DriverManager.getConnection("jdbc:postgresql://localhost:5432/gestorentradas", "postgres", "root");
+				conexion = DriverManager.getConnection("jdbc:postgresql://localhost:5432/BBDD", "postgres", "root");
 				return conexion;
 			} catch (SQLException e) {
 				System.out.println("NO SE PUEDE REALIZAR LA CONEXION ");
@@ -24,7 +24,7 @@ public class Conexion {
 			System.out.println("Error del controlador ");
 		} // Fin catch.
 
-		conexion = null;
+
 		return conexion;
 	}
 	//====================CREAR CONEXION========================================
